@@ -1,0 +1,104 @@
+:root {
+  --yellow: #bfb48f;
+  --blue: #564e58;
+  --red: #904e55;
+  --white: #FFF1DC;
+  --black: #252627;
+}
+
+main {
+	margin: 5em;
+}
+
+
+h1 {
+	font-family: "Alike", serif;
+}
+
+h2, h3 {
+	font-family: "Grape Nuts", cursive;
+
+}
+
+p {
+	font-family: "Manrope", sans-serif;
+
+}
+
+figcaption {
+	font-family: "Manrope", sans-serif;
+}
+
+
+/* NAV */
+.navbar {
+	background-color: var(--blue);
+}
+
+.nav-link {
+	font-family: "Alike", serif;
+	color: var(--white);
+	font-size: 18px;
+}
+
+
+/* HEADER */
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/pile2.png");
+	height: 20em;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+}
+
+.subHeader {
+	text-align: center;
+	margin: auto;
+	background-color: var(--red);
+	padding: 1em;
+	color: var(--white);
+}
+
+marquee {
+	width: 80%;
+}
+
+
+img {
+	margin: 0;
+	max-height: 400px;
+	max-width: 600px;
+}
+
+/* FOOTER */
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+@media (max-width: 768px) { 
+
+
+}
+
+
+
+
+
+
+
+
+
+
