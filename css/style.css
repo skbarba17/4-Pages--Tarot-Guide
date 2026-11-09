@@ -7,7 +7,7 @@
 }
 
 main {
-	margin: 5em;
+	margin: auto;
 }
 
 
@@ -42,7 +42,7 @@ figcaption {
 }
 
 
-/* HEADER */
+/* HEADER & SUBHEADER */
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -53,7 +53,6 @@ figcaption {
 	background-size: cover;
 	position: relative;
 }
-
 
 .hero-text {
   text-align: center;
@@ -76,6 +75,43 @@ marquee {
 	width: 80%;
 }
 
+/* MAIN */
+.introduction {
+	background-color: var(--white);
+	padding: 5%;
+	height: 100%;
+
+}
+
+.across {
+  	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/diagonal.png");
+	height: 20em;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+.meanToUs {
+	background-color: var(--blue);
+	padding: 5%;
+	height: 100%;
+	color: var(--white);
+}
+
+.journey {
+	background-color: var(--white);
+	padding: 5%;
+	height: 100%;
+	color: var(--black);
+}
+
+.vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
 
 img {
 	margin: 0;
@@ -83,13 +119,38 @@ img {
 	max-width: 600px;
 }
 
+.hand {
+	float: right;
+}
+
+/* BUTTON */
+.btn, .btn-primary:focus, .btn-primary:active {
+	margin-top: 1em;
+	font-family: "Alike", serif;
+	font-size: 20px;
+	background-color: var(--black);
+	color: var(--white);
+	border-color: var(--black);
+	
+}
+
+.btn-primary:hover {
+	background-color: var(--red);
+	border-color: var(--red);
+}
+
+
 /* FOOTER */
+footer {
+	background-color: var(--red);
+	color: var(--white);
+	font-family: "Alike", serif;
+}
 
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
 @media (max-width: 768px) { 
-
 
 }
 
