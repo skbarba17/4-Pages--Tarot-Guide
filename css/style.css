@@ -27,9 +27,18 @@ h5 {
 	margin-top: 15px;
 }
 
+h6 {
+	font-family: "Alike", serif;
+	font-size: 16px;
+
+}
+
 p {
 	font-family: "Manrope", sans-serif;
+	margin-top: 1em;
 }
+
+
 
 
 /* NAV */
@@ -70,7 +79,7 @@ p {
 	color: var(--white);
 }
 marquee {
-	width: 80%;
+	width: 70%;
 }
 
 /* MAIN */
@@ -166,11 +175,23 @@ img {
 
 
 /* FOOTER */
-footer {
+.footer {
 	background-color: var(--red);
 	color: var(--white);
 	font-family: "Alike", serif;
-	padding: 4rem;
+	padding: 3em;
+}
+
+i {
+	font-size: 70px;
+}
+
+.copyright {
+	background-color: var(--blue);
+	text-align: center;
+	color: var(--white);
+	padding: 1em;
+	
 }
 
 
