@@ -15,10 +15,21 @@ h1 {
 h2, h3, figcaption {
 	font-family: "Grape Nuts", cursive;
 }
+
+h4 {
+	font-family: "Alike", serif;
+	font-size: 26px;
+}
+
+h5 {
+	font-family: "Manrope", sans-serif;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
 p {
 	font-family: "Manrope", sans-serif;
 }
-
 
 
 /* NAV */
@@ -69,7 +80,7 @@ marquee {
 	height: 100%;
 
 }
-.across {
+.diagonal {
   	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../img/diagonal.png");
 	height: 10em;
 	background-position: center;
@@ -80,7 +91,7 @@ marquee {
 }
 .pile {
   	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../img/pile.png");
-	height: 15em;
+	height: 18em;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -159,6 +170,7 @@ footer {
 	background-color: var(--red);
 	color: var(--white);
 	font-family: "Alike", serif;
+	padding: 4rem;
 }
 
 
