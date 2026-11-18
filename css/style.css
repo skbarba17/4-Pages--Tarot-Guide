@@ -38,7 +38,14 @@ p {
 	margin-top: 1em;
 }
 
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 
 /* NAV */
@@ -57,7 +64,7 @@ p {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/pile2.png");
-	height: 20em;
+	height: 20rem;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -75,7 +82,7 @@ p {
 	text-align: center;
 	margin: auto;
 	background-color: var(--red);
-	padding: 1em;
+	padding: 1rem;
 	color: var(--white);
 }
 marquee {
@@ -91,7 +98,7 @@ marquee {
 }
 .diagonal {
   	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../img/diagonal.png");
-	height: 10em;
+	height: 10rem;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -100,7 +107,7 @@ marquee {
 }
 .pile {
   	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../img/pile.png");
-	height: 18em;
+	height: 18rem;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -120,8 +127,8 @@ marquee {
 }
 
 .theTeam img {
-	margin-top: 2em;
-	padding: 1em;
+	margin-top: 2rem;
+	padding: 1rem;
 }
 
 .figure-caption {
@@ -154,13 +161,13 @@ img {
 }
 
 .left {
-	padding: 1em;
+	padding: 1rem;
 	float: left;
 }
 
 /* BUTTON */
 .btn, .btn-primary:focus, .btn-primary:active {
-	margin-top: 1em;
+	margin-top: 1rem;
 	font-family: "Alike", serif;
 	font-size: 24px;
 	background-color: var(--black);
@@ -179,7 +186,7 @@ img {
 	background-color: var(--red);
 	color: var(--white);
 	font-family: "Alike", serif;
-	padding: 3em;
+	padding: 3rem;
 }
 
 i {
@@ -190,7 +197,7 @@ i {
 	background-color: var(--blue);
 	text-align: center;
 	color: var(--white);
-	padding: 1em;
+	padding: 1rem;
 	
 }
 
